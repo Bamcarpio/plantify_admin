@@ -77,6 +77,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array product_categories
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -3254,6 +3255,9 @@ id baseline
 id beginOnFirstDraw
 id beginning
 id bestChoice
+id bestSelling
+id bestSellingRecyclerView
+id bestSellingSection
 id blocking
 id bottom
 id bottom_container
@@ -3398,6 +3402,9 @@ id homeAsUp
 id home_menu
 id honorRequest
 id horizontal_only
+id housePlant
+id housePlantsRecyclerView
+id housePlantsSection
 id icon
 id icon_group
 id icon_only
@@ -3529,6 +3536,9 @@ id open_search_view_toolbar_container
 id orderId
 id orderStatus
 id orderquantity
+id outdoorGarden
+id outdoorGardenRecyclerView
+id outdoorGardenSection
 id outline
 id outward
 id overshoot
@@ -3548,9 +3558,10 @@ id position
 id postLayout
 id pressed
 id priceproduct
+id productCategory
 id productImg
 id productList
-id productListed
+id productListedRecyclerView
 id productName
 id productPrice
 id productQuantity
@@ -3583,6 +3594,8 @@ id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
 id scrollable
+id scrollableContent
+id searchCard
 id searchItem
 id search_badge
 id search_bar

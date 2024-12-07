@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="product_categories">
+        <item>House Plants</item>
+        <item>Outdoor Garden Plants</item>
+        <item>Best Selling Plants</item>
+    </string-array>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">plantify_admin</string>

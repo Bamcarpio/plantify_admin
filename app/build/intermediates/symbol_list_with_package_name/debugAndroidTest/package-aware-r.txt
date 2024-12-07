@@ -1,3 +1,0 @@
-com.example.plantify_admin.test
-style WhiteBackgroundDialogTheme
-style WhiteBackgroundTheme

@@ -1,6 +1,0 @@
-com.example.plantify_admin.test.app-core-1.5.0-0 C:\Users\Administrator\.gradle\caches\transforms-3\2de2dfbf9df8ed160edb0b53d5064549\transformed\core-1.5.0\res
-com.example.plantify_admin.test.app-annotation-experimental-1.4.0-1 C:\Users\Administrator\.gradle\caches\transforms-3\2fcd9d3d3d701db4c8da3c171b9ab724\transformed\annotation-experimental-1.4.0\res
-com.example.plantify_admin.test.app-androidTest-2 C:\Users\Administrator\AndroidStudioProjects\plantify_admin\app\build\generated\res\resValues\androidTest\debug
-com.example.plantify_admin.test.app-mergeDebugAndroidTestResources-3 C:\Users\Administrator\AndroidStudioProjects\plantify_admin\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.example.plantify_admin.test.app-mergeDebugAndroidTestResources-4 C:\Users\Administrator\AndroidStudioProjects\plantify_admin\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.example.plantify_admin.test.app-merged_res-5 C:\Users\Administrator\AndroidStudioProjects\plantify_admin\app\build\intermediates\merged_res\debugAndroidTest

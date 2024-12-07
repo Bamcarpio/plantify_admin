@@ -44,12 +44,12 @@
         "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.4\\com.example.plantify_admin.app-main-42:\\layout\\product_items.xml"
     },
     {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.4\\com.example.plantify_admin.app-merged_res-40:\\layout_card_chat.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.4\\com.example.plantify_admin.app-main-42:\\layout\\card_chat.xml"
-    },
-    {
         "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.4\\com.example.plantify_admin.app-merged_res-40:\\layout_fragment_chat_inside.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.4\\com.example.plantify_admin.app-main-42:\\layout\\fragment_chat_inside.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.4\\com.example.plantify_admin.app-merged_res-40:\\layout_card_chat.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.4\\com.example.plantify_admin.app-main-42:\\layout\\card_chat.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.4\\com.example.plantify_admin.app-merged_res-40:\\layout_image_menu_logo.xml.flat",
@@ -160,15 +160,15 @@
         "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.4\\com.example.plantify_admin.app-main-42:\\layout\\product_card.xml"
     },
     {
+        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.4\\com.example.plantify_admin.app-merged_res-40:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.4\\com.example.plantify_admin.app-main-42:\\layout\\activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.4\\com.example.plantify_admin.app-merged_res-40:\\layout_fragment_chats.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.4\\com.example.plantify_admin.app-main-42:\\layout\\fragment_chats.xml"
     },
     {
         "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.4\\com.example.plantify_admin.app-merged_res-40:\\layout_fragment_deliveries.xml.flat",
         "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.4\\com.example.plantify_admin.app-main-42:\\layout\\fragment_deliveries.xml"
-    },
-    {
-        "merged": "C:\\Users\\Administrator\\.gradle\\daemon\\8.4\\com.example.plantify_admin.app-merged_res-40:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Administrator\\.gradle\\daemon\\8.4\\com.example.plantify_admin.app-main-42:\\layout\\activity_main.xml"
     }
 ]

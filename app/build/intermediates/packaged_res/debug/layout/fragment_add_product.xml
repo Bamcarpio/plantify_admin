@@ -16,12 +16,12 @@
 
         <FrameLayout
             android:layout_width="match_parent"
-            android:layout_height="300dp">
+            android:layout_height="200dp">
 
             <ImageView
                 android:id="@+id/ImageProduct"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="200dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/plant_logo" />
 
@@ -87,6 +87,14 @@
                 android:layout_height="wrap_content"
                 android:hint="Product Description" />
         </com.google.android.material.textfield.TextInputLayout>
+        <Spinner
+            android:id="@+id/productCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown"
+            android:layout_marginTop="16dp"
+            android:entries="@array/product_categories" />
+
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"

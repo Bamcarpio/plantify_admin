@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array product_categories
 color black
 color white
 drawable baseline_menu_24
@@ -21,6 +22,9 @@ id SubmitProduct
 id UploadPhoto
 id appBarLayout
 id attachment_preview
+id bestSelling
+id bestSellingRecyclerView
+id bestSellingSection
 id bottom_container
 id button_back
 id button_login
@@ -35,6 +39,9 @@ id drawer
 id edit_text_message
 id fab
 id home_menu
+id housePlant
+id housePlantsRecyclerView
+id housePlantsSection
 id imageButton
 id image_preview
 id main
@@ -43,10 +50,14 @@ id nameproduct
 id orderId
 id orderStatus
 id orderquantity
+id outdoorGarden
+id outdoorGardenRecyclerView
+id outdoorGardenSection
 id priceproduct
+id productCategory
 id productImg
 id productList
-id productListed
+id productListedRecyclerView
 id productName
 id productPrice
 id productQuantity
@@ -56,6 +67,8 @@ id receiver_image_view
 id receiver_message_text
 id receiver_time_text
 id recycler_view
+id scrollableContent
+id searchCard
 id searchItem
 id sender_image_view
 id sender_message_text

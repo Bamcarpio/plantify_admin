@@ -1,5 +1,11 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
     <string name="app_name">plantify_admin</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="product_categories">
+        <item>House Plants</item>
+        <item>Outdoor Garden Plants</item>
+        <item>Best Selling Plants</item>
+    </string-array>
+
 </resources>

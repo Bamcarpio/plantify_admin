@@ -2,9 +2,14 @@ package com.example.plantify_admin.model;
 
 public class ProductModel {
 
-    String ProductName,Price,Quantity,ImageUrl,key;
+    private String ProductName;
+    private String Price;
+    private String Quantity;
+    private String ImageUrl;
+    private String key;
+    private String Category; // New field for Category
 
-
+    // Getter and Setter for ProductName
     public String getProductName() {
         return ProductName;
     }
@@ -13,6 +18,7 @@ public class ProductModel {
         ProductName = productName;
     }
 
+    // Getter and Setter for Price
     public String getPrice() {
         return Price;
     }
@@ -21,6 +27,7 @@ public class ProductModel {
         Price = price;
     }
 
+    // Getter and Setter for Quantity
     public String getQuantity() {
         return Quantity;
     }
@@ -29,6 +36,7 @@ public class ProductModel {
         Quantity = quantity;
     }
 
+    // Getter and Setter for ImageUrl
     public String getImageUrl() {
         return ImageUrl;
     }
@@ -37,6 +45,7 @@ public class ProductModel {
         ImageUrl = imageUrl;
     }
 
+    // Getter and Setter for Key
     public String getKey() {
         return key;
     }
@@ -44,6 +53,13 @@ public class ProductModel {
     public void setKey(String key) {
         this.key = key;
     }
+
+    // Getter and Setter for Category
+    public String getCategory() {
+        return Category;
+    }
+
+    public void setCategory(String category) {
+        Category = category;
+    }
 }
-
-
