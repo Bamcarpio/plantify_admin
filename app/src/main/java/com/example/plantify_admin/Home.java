@@ -28,12 +28,7 @@ import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
 
 public class Home extends AppCompatActivity {
-
-
-
     private ImageView ImageMenu;
-
-
     private NavigationView nav;
     private ImageView imagebutton;
     private FirebaseAuth firebaseAuth;
@@ -55,39 +50,36 @@ public class Home extends AppCompatActivity {
         drawer = findViewById(R.id.drawer);
         imagebutton = findViewById(R.id.imageButton);
 
-
-
         setFragment(new home_layout());
 
-        imagebutton.setOnClickListener(v->{
+        imagebutton.setOnClickListener(v -> {
             drawer.open();
         });
 
         nav.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                int itemid  = menuItem.getItemId();
+                int itemid = menuItem.getItemId();
 
-                if(itemid == R.id.Home){
+                if (itemid == R.id.Home) {
                     setFragment(new home_layout());
                     Toast.makeText(Home.this, "Home", Toast.LENGTH_SHORT).show();
                 }
-                if(itemid == R.id.Add_Product){
+                if (itemid == R.id.Add_Product) {
                     setFragment(new add_product());
                     Toast.makeText(Home.this, "Add Products", Toast.LENGTH_SHORT).show();
                 }
-                if(itemid == R.id.Orders){
+                if (itemid == R.id.Orders) {
                     setFragment(new Deliveries());
                 }
-                if(itemid == R.id.chats){
+                if (itemid == R.id.chats) {
                     setFragment(new chats());
-
                 }
-                if(itemid == R.id.Delivery){
+                if (itemid == R.id.Delivery) {
                     setFragment(new for_delivery());
                 }
-                if(itemid == R.id.FeedBacks){
-                        setFragment(new Feedbacks());
+                if (itemid == R.id.FeedBacks) {
+                    setFragment(new Feedbacks());
                 }
                 if (itemid == R.id.Sign_Out) {
                     Intent intent = new Intent(Home.this, MainActivity.class);
@@ -95,14 +87,15 @@ public class Home extends AppCompatActivity {
                     startActivity(intent);
                     finish(); // Close Home activity
                 }
-                return false;
+
+                // Close the navigation drawer after item selection
+                drawer.closeDrawer(nav);
+
+                return true; // Indicate that the item was handled
             }
         });
-
-
-
-
     }
+
 
     private void setFragment(Fragment fragment){
         FragmentManager fragmentManager = getSupportFragmentManager();
